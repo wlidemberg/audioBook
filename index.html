@@ -24,7 +24,11 @@
                     </div>
                 </div>
                 <audio id="audio_chapter" src="./books/dom-casmurro/1.mp3"></audio>
+                <div id="progressBar_container">
+                    <div id="progress_bar"></div>
+                </div>
                 <div class="content_right_player_controls">
+                    <input type="range" id="volume_control" min="0" max="100" value="100" step="1">
                     <button><i id="next" class="bi bi-rewind-btn-fill"></i></button>
                     <button><i id="play_pause" class="bi bi-play-btn-fill"></i></button>
                     <button><i id="previous" class="bi bi-fast-forward-btn-fill"></i></button>
